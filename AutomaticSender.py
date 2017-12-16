@@ -23,7 +23,6 @@ searchBar = driver.find_element_by_id('input-chatlist-search')
 searchBar.send_keys(name)
 time.sleep(1)
 
-input()
 user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(name))
 user.click()
 
